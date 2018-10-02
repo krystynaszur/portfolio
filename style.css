@@ -373,6 +373,68 @@ a {
     align-items: center;
   }
 
+  .grid {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .grid-item { 
+    width: 33%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  height: auto;
+  }
+  
+  .filters-button-group {
+    background-color: #ededed;
+  border-radius: 25px;
+  max-width: 720px;
+  width: 100%;
+  margin: 0 auto;
+    border: 1px solid #cfcfcf;
+    position: relative;
+    overflow: hidden;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .grid-button {
+    background-color: transparent;
+    color: black;
+    flex:1;
+    position: relative;
+    height: 100%;
+    border: none;
+    box-sizing: border-box;
+    font-size: 2rem;
+    padding: 0 10px;
+  }
+  
+  .grid-button:hover:before {
+    border-bottom: 5px solid var(--main-yellow);
+    content: '';
+   width: 95%;
+    position: absolute;
+    z-index: 1;
+  top: 45px;
+  left: 5%;
+  }
+  
+  .grid-button:focus {
+    background-color: var(--main-yellow);
+    border: none;
+    color: white;
+  }
+
 .projects .container {
     width: 100%;
     background: #F9F9F9;
@@ -387,7 +449,6 @@ a {
 }
 
 .project-box {
-    flex-basis: 33%;
     box-sizing: border-box;
     padding: 1px;
     position: relative;
@@ -650,6 +711,10 @@ a {
     .contact-form {
         width: 100%;
     }
+
+    .grid-item { 
+        width: 50%;
+    }
 }
 
 @media all and (max-width: 768px) {
@@ -681,6 +746,9 @@ a {
     .project-box {
         flex-basis: 100%;
         padding: 8px 0;
+    }
+    .grid-item { 
+        width: 100%;
     }
 }
 
