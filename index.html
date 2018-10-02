@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Arimo|Dosis" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Krystyna Szurmańska - Portfolio</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <nav class="nav" >
+            <div class="container">
+                <div class="logo">
+                    Web development
+                </div>
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn">
+                    <span class="navicon"></span>
+                </label>
+                <ul class="menu">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#technology">Technologies</a>
+                    </li>
+
+                    <li>
+                        <a href="#projects">My projects</a>
+                    </li>
+                    <li>
+                        <a href="#about-me">About me</a>
+                    </li>
+                    <li>
+                        <a href="#footer">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <header class="hero-area">
+            <div class="container">
+                <div class="hero-area-content">
+                    <h1 id="name"></h1>
+                    <p>I am a junior web developer and a linguist.
+                        <br> My current favorite language? </p>
+                    <p id="javascript"></p>
+                    </p>
+                    <div class="hero-area-btns">
+                        <a href="#footer">
+                            <button>Contact</button>
+                        </a>
+                        <a href="https://github.com/krystynaszur" target="_blank">
+                            <button>Github</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="technology" id="technology">
+                <div class="container">
+                    <div class="header">
+                        <h2>Technologies</h2>
+                        <hr>
+                    </div>
+                    <div class="technology-images">
+                        <div class="technology-example">
+                            <h3>Javascript</h3>
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <div class="technology-example">
+                            <h3>Html 5</h3>
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <div class="technology-example">
+                            <h3>CSS 3</h3>
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <div class="technology-example">
+                            <h3>Sass</h3>
+                            <i class="fab fa-sass"></i>
+                        </div>
+                        <div class="technology-example">
+                            <h3>Bootstrap</h3>
+                            <img id="bootstrap" src="img/bootstrap-small.png">
+                        </div>
+
+                        <div class="technology-example">
+                            <h3>React</h3>
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <div class="technology-example">
+                            <h3>Git</h3>
+                            <i class="fab fa-git-square"></i>
+                        </div>
+                        <div class="technology-example">
+                            <h3>Webpack</h3>
+                            <img id="webpack" src="img/webpack-small.png">
+                        </div>
+                        <div class="technology-example">
+                            <h3>Node.js</h3>
+                            <i class="fab fa-node-js"></i>
+                        </div>
+                        <div class="technology-example">
+                            <h3>MongoDB</h3>
+                            <img id="mongo" src="img/mongo-small.png">
+                        </div>
+                    </div>
+            </section>
+
+            <section class="projects" id="projects">
+                <div class="container">
+                    <div class="header">
+                        <h2>My projects</h2>
+                        <hr>
+                    </div>
+                    <div class="all-projects">
+                        <div class="project-box">
+                            <img src="img/design-company.png" alt="Design company website">
+                            <div class="project-box-hover">
+                                <div class="project-description">Responsive website for a design company
+                                    <span> HTML5, CSS3, Javascript, Flickity and isotope libraries</span>
+                                </div>
+                                <div>
+                                    <a href="https://krystynaszur.github.io/zad-12.8/" target="_blank">
+                                        <i class="fas fa-search-plus"></i>
+                                    </a>
+                                    <a href="https://github.com/krystynaszur/zad-12.8" target="_blank">
+                                        <i class="fab fa-github-square"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-box">
+                            <img src="img/marketing-agency.png" alt="Marketing agency website">
+                            <div class="project-box-hover">
+                                <div>
+                                    <div class="project-description">Responsive website for a design company
+                                        <span> HTML5, CSS3</span>
+                                        </span>
+                                    </div>
+                                    <a href="https://krystynaszur.github.io/7.7-new-structure/" target="_blank">
+                                        <i class="fas fa-search-plus"></i>
+                                    </a>
+                                    <a href="https://github.com/krystynaszur/7.7-new-structure" target="_blank">
+                                        <i class="fab fa-github-square"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-box">
+                            <img src="img/sudoku.png" alt="Sudoku app">
+                            <div class="project-box-hover">
+                                <div class="project-description">Sudoku application
+                                    <span>HTML5, CSS3, Javascript (ES6), React</div>
+                                <div>
+                                    <a href="https://github.com/krystynaszur/sudoku" target="_blank">
+                                        <i class="fab fa-github-square"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-box">
+                            <img src="img/todolist.png" alt="To do application">
+                            <div class="project-box-hover">
+                                <div class="project-description">Application for developing to-do lists
+                                    <span>HTML5, CSS3, Javascript (ES6), React, Webpack</span>
+                                </div>
+                                <div>
+                                    <a href="https://github.com/krystynaszur/zad-16.7" target="_blank">
+                                        <i class="fab fa-github-square"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-box">
+                            <img src="img/github.png" alt="Github application">
+                            <div class="project-box-hover">
+                                <div>
+                                    <div class="project-description">Application for browsing through the database of Github users
+                                        <span>HTML5, CSS3, Javascript (ES6), React</span>
+                                    </div>
+                                    <a href="https://krystynaszur.github.io/zad-15.9/" target="_blank">
+                                        <i class="fas fa-search-plus"></i>
+                                    </a>
+                                    <a href="https://github.com/krystynaszur/zad-15.9" target="_blank">
+                                        <i class="fab fa-github-square"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-box">
+                            <img src="img/redux.png" alt="Comment application">
+                            <div class="project-box-hover">
+                                <div>
+                                    <div class="project-description">Application for presenting, rating and editing comments
+                                        <span>HTML5, CSS3, Javascript (ES6), React, Redux</span>
+                                    </div>
+                                    <a href="https://github.com/krystynaszur/redux-react" target="_blank">
+                                        <i class="fab fa-github-square"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-box">
+                            <img src="img/rockapp.png" alt="Game application">
+                            <div class="project-box-hover">
+                                <div>
+                                    <div class="project-description">Application for playing rock, paper, scissors
+                                        <span>HTML5, CSS3, Javascript</span>
+                                    </div>
+                                    <a href="https://krystynaszur.github.io/game/" target="_blank">
+                                        <i class="fas fa-search-plus"></i>
+                                    </a>
+                                    <a href="https://github.com/krystynaszur/game" target="_blank">
+                                        <i class="fab fa-github-square"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-box">
+                            <img src="img/carousel.png" alt="Carousel website">
+                            <div class="project-box-hover">
+                                <div>
+                                    <div class="project-description">Travel destination website with a photo carousel and Google Maps 
+                                        <span>HTML5, CSS3, Javascript, Mustache and Flickity libraries</span>
+                                    </div>
+                                    <a href="https://krystynaszur.github.io/carousel/" target="_blank">
+                                        <i class="fas fa-search-plus"></i>
+                                    </a>
+                                    <a href="https://github.com/krystynaszur/carousel" target="_blank">
+                                        <i class="fab fa-github-square"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-box">
+                            <img src="img/portfolio.png" alt="Portfolio website">
+                            <div class="project-box-hover">
+                                <div>
+                                    <div class="project-description">Portfolio website
+                                        <span>HTML5, CSS3, Javascript, isotope library</span>
+                                    </div>
+                                    <a href="https://github.com/krystynaszur/redux-react" target="_blank">
+                                        <i class="fab fa-github-square"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </section>
+            <section class="aboutMe" id="about-me">
+                <div class="container">
+                    <div class="header">
+                        <h2>About me</h2>
+                        <hr>
+                    </div>
+                    <div class="aboutme-description">
+                        <div class="aboutme-description-text">
+                            <h3>Translating ideas into Javascript.</h3>
+                            <p>I love translation. I translate between several languages and now I am working hard on becoming
+                                fluent in Javascript. I enjoy this programming language and try to use it in the most efficient
+                                and clear way that is possible.</p>
+                        </div>
+                    </div>
+                    <div class="line">
+                        <div class="row text-left">
+                            <div class="col-l-4 col-s-12 description">
+                                <h3>
+                                    <time>2018</time>
+                                    <br>Coding course
+                                </h3>
+                                <p class="company-history">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean
+                                    rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim.
+                                    Donec porttitora entum suscipit.</p>
+                            </div>
+                            <div class="col-l-4 col-s-12 image">
+                                <img alt="company history 1" class="object-fit_cover" src="img/code-small.png">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-l-4  col-s-12 text-right image">
+                                <img alt="company history 2" class="object-fit_cover" src="img/computer-small.png">
+                            </div>
+                            <div class="col-l-4  col-s-12 description">
+                                <h3>
+                                    <time>2011-2018</time>
+                                    <br> Career in translation and marketing
+                                </h3>
+                                <p class="company-history">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean
+                                    rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim.
+                                    Donec porttitora entum suscipit.</p>
+                            </div>
+                        </div>
+                        <div class="row text-left">
+                            <div class="col-l-4  col-s-12 description">
+                                <h3>
+                                    <time>2006-2011</time>
+                                    <br>Studies in linguistics
+                                </h3>
+                                <p class="company-history">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean
+                                    rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim.
+                                    Donec porttitora entum suscipit.</p>
+                            </div>
+                            <div class="col-l-4 col-s-12 image">
+                                <img alt="company history 3" class="object-fit_cover" src="img/logic-small.jpg">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="image col-l-4 col-s-12" id="story">
+                                <a href="documents/Krystyna Szurmańska CV.pdf" target="_blank">
+                                    <p>Download
+                                        <br>my resume</p>
+                                    </p>
+                                    <img alt="company history 4" class="object-fit_cover" src="img/yellow.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <aside class="top" onclick="topFunction()">
+                <i class="fas fa-angle-up"></i>
+            </aside>
+        <footer class="footer" id="footer">
+            
+            <div class="container">
+                <div class="header">
+                    <h2>Contact</h2>
+                    <hr>
+                    <p>I am based in Warsaw, Poland. I am looking for both on-site and remote job opportunities. If you are
+                        interested in cooperating with me, please send me an email.</p>
+                </div>
+                <div class="contact-options">
+                    <div class="contact">
+                        <a href="mailto:kszurmanska@gmail.com?Subject=Hello" target="_blank">
+                            <i class="fas fa-envelope-square"></i>
+                            <p>Email me at kszurmanska@gmail.com</p>
+                        </a>
+                    </div>
+                    <div class="contact">
+                        <a href="https://www.linkedin.com/in/krystyna-szurma%C5%84ska-a8746a14/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                            <p>Connect with me on LinkedIn</p>
+                        </a>
+                    </div>
+                    <div class="contact">
+                        <a href="https://github.com/krystynaszur" target="_blank">
+                            <i class="fab fa-github"></i>
+                            <p>Follow me on Github</p>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="footer-bottom">
+                    <p>Created by Krystyna Szurmańska &copy 2018   </p>
+                </div>
+        </footer>
+        
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
