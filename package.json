@@ -8,17 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jimmeyy/Portfolio.git"
+    "url": "git+https://github.com/krystynaszur/portfolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Jimmeyy/Portfolio/issues"
+    "url": "https://github.com/krystynaszur/portfolio/issues"
   },
-  "homepage": "https://github.com/Jimmeyy/Portfolio#readme",
+  "homepage": "https://github.com/krystynaszur/portfolio#readme",
   "dependencies": {
-    "aos": "^2.3.3",
-    "particlesjs": "^2.2.3"
   }
 }
