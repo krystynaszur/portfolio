@@ -138,6 +138,8 @@ a {
     flex-basis: 100%;
     text-align: center;
     color: black;
+    height: 6.2rem;
+    margin-bottom: 30px;
 }
 
 .hero-area-content h1 span {
@@ -305,14 +307,13 @@ a {
     text-transform: uppercase;
   }
   
-  #about-me .row .company-history {
+  #about-me .row .career-stage {
     color: #777777;
     font-size: 1.7rem;
     font-weight: 400;
     letter-spacing: -0.35px;
-    
   }
-  
+
   #about-me .image {
      display: flex;
      justify-content: center;
@@ -729,7 +730,8 @@ a {
     }
 
     .hero-area-content h1 {
-        font-size: 3.8rem;
+        font-size: 4rem;
+        height: 4rem;
     }
 
     .hero-area-content p {
@@ -806,4 +808,11 @@ a {
       #story {
           margin: 0;
       }
+}
+
+@media all and (max-width: 350px) {
+    .hero-area-content h1 {
+        font-size: 3.5rem;
+        height: 5.5rem;
+    }
 }
