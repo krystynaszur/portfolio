@@ -307,7 +307,7 @@ a {
     text-transform: uppercase;
   }
   
-  #about-me .row .career-stage {
+  #about-me .row .col-l-4 .career-stage {
     color: #777777;
     font-size: 1.7rem;
     font-weight: 400;
